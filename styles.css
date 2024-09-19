@@ -1,0 +1,44 @@
+canvas{
+    background-color: black;
+    border: 1px, solid, black;
+    margin: 1em auto;
+    display: block;
+}
+html{
+    background-color: lightblue;
+}
+h1, h2 {
+    display: block;
+    text-align: center;
+    text-shadow: -1px 1px #000,
+        1px 1px #000,
+        1px -1px #000,
+        -1px -1px #000;
+    color: white;
+}
+#instructions {
+    border-top: #000 1px solid;
+    display: block;
+    margin: 0 20% 0 20%;
+    text-align: center;
+}
+p {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#start{
+    border: 1px solid black;
+    display: block;
+    text-decoration: none;
+    color: lightblue;
+    background-color: white;
+    text-shadow: -1px 1px #000,
+        1px 1px #000,
+        1px -1px #000,
+        -1px -1px #000;
+    padding: 1em, 0, 1em, 0;
+}
+#start:hover{
+    background-color: aqua;
+}
